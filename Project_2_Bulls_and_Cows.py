@@ -97,7 +97,6 @@ def vypis_statistiku(pocet_pokusu, statistika_pokusu, oddelovac):
     hra_cislo, pokus = "Číslo hry", "Tvůj počet pokusů"  # pomocné proměnné sloužící jen k zarovnání tisku
     print(hra_cislo.ljust(20), pokus.rjust(20))
     print("-"*50)
-    # print(cislo_hry + 1, statistika_pokusu)
     for cislo_hry, _ in enumerate(range(0, len(statistika_pokusu))):
         print(str(cislo_hry + 1).center(10), str(statistika_pokusu[cislo_hry]).rjust(25))
     print(oddelovac)
