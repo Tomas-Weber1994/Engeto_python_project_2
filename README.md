@@ -1,2 +1,1 @@
-# engeto_project_2
-Game Bulls and cows 
+# Game Bulls and cows
