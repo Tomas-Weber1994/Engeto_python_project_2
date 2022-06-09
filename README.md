@@ -5,9 +5,12 @@ Jedná se o textový analyzátor - program, který se snaží prokousat libovoln
 
 Program si od uživatele vyžádá přihlašovací jméno a heslo, zjistí, jestli zadané údaje odpovídají někomu z registrovaných uživatelů. Pokud je uživatel registrovaný, program začne analytovat text. Pokud není registrovaný, program jej zpozorní a skončí. Program aktuálně pracuje s předpřipravenými texty pro snadnější kontrolu kódu. 
 
-Registrovaní jsou uživatelé: bob, ann, mike, liz
+Registrovaní jsou uživatelé: 
+- bob (heslo: 123)
+- ann, (heslo: pass123)
+- mike (heslo: password123)
+- liz (heslo: pass123)
 
-Hesla uživatelů: 123, pass123, password123 pass123
 
 Program nechá registrovaného uživatele vybrat mezi třemi texty, uloženými v proměnné TEXTS:
 Pokud uživatel vybere takové číslo textu, které není v zadání, program jej upozorní a skončí,
