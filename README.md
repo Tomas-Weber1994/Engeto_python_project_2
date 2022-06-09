@@ -3,7 +3,7 @@
 ## Popis projektu
 Jedná se o textový analyzátor - program, který se snaží prokousat libovolně dlouhým textem a zjistit o něm různé informace.
 
-Program si od uživatele vyžádá přihlašovací jméno a heslo, zjistí, jestli zadané údaje odpovídají někomu z registrovaných uživatelů, pokud je registrovaný, program začne analytovat text. Pokud není registrovaný, upozorní jej a program se ukončí. 
+Program si od uživatele vyžádá přihlašovací jméno a heslo, zjistí, jestli zadané údaje odpovídají někomu z registrovaných uživatelů, pokud je registrovaný, program začne analytovat text. Pokud není registrovaný, upozorní jej a program se ukončí. Program aktuálně pracuje s předpřipravenými texty pro snadnější kontrolu kódu. 
 
 Registrovaní jsou uživatelé: bob, ann, mike, liz
 
