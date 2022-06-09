@@ -3,15 +3,12 @@
 ## Popis projektu
 Jedná se o textový analyzátor - program, který se snaží prokousat libovolně dlouhým textem a zjistit o něm různé informace.
 
-Program si od uživatele vyžádá přihlašovací jméno a heslo, zjistí, jestli zadané údaje odpovídají někomu z registrovaných uživatelů, pokud je registrovaný, pozdrav jej a umožni mu analyzovat texty.Pokud není registrovaný, upozorní jej a program se ukončí. 
+Program si od uživatele vyžádá přihlašovací jméno a heslo, zjistí, jestli zadané údaje odpovídají někomu z registrovaných uživatelů, pokud je registrovaný, program začne analytovat text. Pokud není registrovaný, upozorní jej a program se ukončí. 
 
-Registrováni jsou následující uživatelé:
+Registrovaní jsou uživatelé: bob, ann, mike, liz
+Hesla uživatelů: 123, pass123, password123 pass123
 
-Uživatelské jméno   Heslo
-bob                  123
-ann                 pass123
-mike                password123
-liz                 pass123
+
 
 Program nechá uživatele vybrat mezi třemi texty, uloženými v proměnné TEXTS:
 Pokud uživatel vybere takové číslo textu, které není v zadání, program jej upozorní a skončí,
