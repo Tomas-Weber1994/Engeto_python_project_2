@@ -3,6 +3,7 @@
 ## Popis projektu
 Program simuluje hru Bulls and Cows. Po vypsání úvodního textu uživateli, uživatel hádá náhodně vygenerované čtyřciferné číslo. Hru je možné libovolněkrát opakovat. 
 
+Program funguje následovně:
 - Program pozdraví užitele a vypíše úvodní text.
 - Program dále vytvoří tajné 4místné číslo (číslice musí být unikátní a nesmí začínat 0).
 - Hráč hádá číslo. Program jej upozorní, pokud zadá číslo kratší nebo delší než 4 čísla, pokud bude obsahovat duplicity, začínat nulou, příp. obsahovat nečíselné znaky
